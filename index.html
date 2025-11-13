@@ -2,18 +2,153 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SaskDev | MCDev</title>
-  <meta name="description" content="SaskDev Portfolio">
-  <meta name="author" content="saskdev">
-
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" href="images/logo.svg" type="image/x-icon">
+  <title>SaskDev | Developer</title>
+  <meta name="author" content="SaskDev">
+  <meta name="description" content="Portafolio de SaskDev – servidores Minecraft (Java & Bedrock), mobs custom, items custom, Skript y mecánicas únicas.">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.0/font/bootstrap-icons.css">
+
 </head>
-<body>
-  
-  
-  
+<body id="page-top">
+
+  <nav class="navbar">
+    <div class="container navbar__inner">
+      <a href="#page-top" class="navbar__brand">
+        <img src="images/saskdev-blackbg.png" alt="SaskDev Logo" class="navbar__logo">
+      </a>
+      <ul class="navbar__menu">
+        <li class="navbar__item"><a href="#about" class="navbar__link">Sobre Mi</a></li>
+        <li class="navbar__item"><a href="#projects" class="navbar__link">Proyectos</a></li>
+        <li class="navbar__item"><a href="#contact" class="navbar__link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero__inner">
+      <h1 class="hero__title">HOLA, SOY <span class="hero__highlight">SASKDEV</span></h1>
+      <p class="hero__subtitle">Desarrollo de servidores · Java-Bedrock · Mobs e Items Custom · Skript</p>
+      <a href="#gallery" class="btn btn-accent">¿POR QUÉ ELEGIRME?</a>
+    </div>
+  </header>
+
+<section id="about" class="section about">
+  <div class="container about__inner">
+    <div class="about__header">
+      <i class="bi bi-exclamation-square about__icon" aria-hidden="true"></i>
+      <h2 class="about__subtitle">SOBRE MÍ</h2>
+    </div>
+    <p class="about__text">
+      Soy <strong>SaskDev</strong>, un desarrollador apasionado especializándome en servidores de Minecraft (Java & Bedrock), creación de mobs personalizados, items únicos e implementación de mecánicas que marcan la diferencia. Mi objetivo: transformar ideas en experiencias dinámicas, optimizadas y memorables para jugadores de todas las plataformas.
+    </p>
+    <div class="about__cards">
+      <div class="about__card">
+        <i class="bi bi-code-slash about__card-icon" aria-hidden="true"></i>
+        <h3 class="about__card-title">Desarrollo / Cross-Play</h3>
+        <p class="about__card-text">Construcción de servidores Java y Bedrock integrados, soporte cross-play, código limpio y sistemas modulares.</p>
+      </div>
+      <div class="about__card">
+        <i class="bi bi-gear about__card-icon" aria-hidden="true"></i>
+        <h3 class="about__card-title">Mobs & Items personalizados</h3>
+        <p class="about__card-text">Diseño de entidades, items con propiedades especiales, UI personalizada e integración completa con gameplay.</p>
+      </div>
+      <div class="about__card">
+        <i class="bi bi-layers about__card-icon" aria-hidden="true"></i>
+        <h3 class="about__card-title">Mecánicas únicas</h3>
+        <p class="about__card-text">Implementación de dinámicas exclusivas: tabs sofisticados, sistemas de progresión, efectos de juego realmente distintos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects" class="section projects-active">
+  <div class="container projects-active__inner">
+    <div class="projects-active__header">
+      <h2 class="projects-active__title">PROYECTOS ACTIVOS</h2>
+      <p class="projects-active__intro">
+        Aquí algunos de los servidores en donde trabajé hace poco, donde demostré mi enfoque en mecánicas únicas y optimizadas, añadiendo modalidades, o realizando configuraciones
+      </p>
+    </div>
+
+    <div class="carousel projects-active__carousel">
+      <div class="carousel__track">
+        <div class="carousel__slide">
+          <div class="project-slide__imagewrap">
+            <img src="images/vaper.png" alt="Servidor 1 – Proyecto" class="project-slide__image">
+          </div>
+          <h3 class="project-slide__subtitle">VaperMC Network</h3>
+          <p class="project-slide__text">Network la cual lanzará pronto un KitPvP RPG desarrollado por mi en conjunto a Meap1379 (Dc: meap1379).</p>
+        </div>
+        <div class="carousel__slide">
+          <div class="project-slide__imagewrap">
+            <img src="images/khaosmc.png" alt="Servidor 2 – Proyecto" class="project-slide__image">
+          </div>
+          <h3 class="project-slide__subtitle">KhaosMC Network (Ex Zolium)</h3>
+          <p class="project-slide__text">Network aún en desarrollo, cerró temporalmente y se acerca su reapertura, inicialmente con un SurvivalOP</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="gallery" class="section gallery">
+  <div class="container gallery__inner">
+    <div class="gallery__intro">
+      <h2 class="gallery__title">¿POR QUÉ ELEGIRME?</h2>
+      <p class="gallery__subtitle">
+        Si buscas un servidor que destaque, yo lo hago realidad. Desde mecánicas únicas hasta integración completa Java-Bedrock, diseño de mobs/items y experiencia optimizada… te ofrezco soluciones listas para impactar.  
+        ¿Listo para transformar tu servidor en algo que los jugadores digan: «¡Wow, quiero estar aquí!»?
+      </p>
+    </div>
+
+    <div class="gallery__grid">
+      <div class="gallery__card">
+        <img class="gallery__image" src="images/copperclean.gif" alt="Sistema Limpiar Cobre">
+        <h3 class="gallery__card-title">Sistemas Novedosos</h3>
+        <p class="gallery__card-text">En este ejemplo muestro un sistema de limpieza de cobre, creado para que sea dinámico y novedoso.</p>
+      </div>
+      <div class="gallery__card">
+        <img class="gallery__image" src="images/craftingsystem.gif" alt="Sistema Crafting Custom">
+        <h3 class="gallery__card-title">Diseño Y Sistema UI</h3>
+        <p class="gallery__card-text">Aqui muestro un sistema de crafteo custom y rpg compatible con Java y Bedrock.</p>
+      </div>
+      <div class="gallery__card">
+        <img class="gallery__image" src="images/royalguard.gif" alt="Mobs Especiales">
+        <h3 class="gallery__card-title">Mobs Especiales & Integración</h3>
+        <p class="gallery__card-text">Enemigos con IA mejorada, ataques únicos, loot mejorado y más cosas para atraer comunidad.</p>
+      </div>
+      <!-- Puedes añadir más tarjetas según sistemas que quieras mostrar -->
+    </div>
+  </div>
+</section>
+<section id="contact" class="section contact">
+  <div class="container contact__inner">
+    <div class="contact__content">
+      <i class="bi bi-discord contact__icon" aria-hidden="true"></i>
+      <h2 class="contact__title">Conectemos en Discord</h2>
+      <p class="contact__text">
+        ¿Tienes un proyecto, una idea o necesitas ayuda con tu servidor de Minecraft? Estoy disponible para colaboraciones, desarrollos personalizados o asesoramiento técnico.
+      </p>
+      <a class="btn-accent contact__btn">ID: SaskDev</a>
+      <p class="contact__id">Enviame una solicitud por <strong>Discord</strong></p>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__text">© 2025 SaskDev. Todos los derechos reservados.</p>
+    <nav class="site-footer__nav">
+      <ul class="site-footer__list">
+        <li class="site-footer__item"><a href="#about" class="site-footer__link">Sobre Mí</a></li>
+        <li class="site-footer__item"><a href="#projects" class="site-footer__link">Proyectos</a></li>
+        <li class="site-footer__item"><a href="#contact" class="site-footer__link">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
 </body>
 </html>
